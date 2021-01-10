@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>遊戲說明</title>
+    <style>
+        body{
+            background: url('../assets/view/遊戲說明/教學_bg.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .next{
+            background: url("../assets/view/遊戲說明/教學01_next.png");
+            background-size: cover;
+            width: 200px;height: 100px;
+            position: absolute;
+            top: 80%;
+            right: 5%;
+        }
+        .role1{
+            position: absolute;
+            width: 600px;
+            top: 30%;
+            left: 5%;
+        }
+        p {
+            display: block;
+            margin-top: 3em;
+            margin-bottom: 1em;
+            margin-left: 4em;
+            margin-right: 0;
+            text-align:left;
+            font-size:24px;
+            font-family:Microsoft JhengHei;
+        }
+        .role2{
+            position: absolute;
+            width: 600px;
+            top: 55%;
+            left: 5%;
+        }
+        .resize{
+            margin-top: 2em;
+            width: 200px;
+            height: auto;
+        }
+        .car{
+            float: left;
+            margin-top:40px ;
+            margin-right:20px;
+            width:150px ;
+            height:80px;
+        }
+        .barrier{
+            width: 600px;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+        }
+        .gift{
+            width: 300px;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+
+
+<a href="help2.html">
+    <div class="next"></div>
+</a>
+<div class="role1">
+    <img style="float: left" src="/assets/roles/playerG_front0001.png">
+    <p>上下左右移動，用身體推動方塊，按 ‘?’ 攻擊，按'Shift'按按紐</p>
+</div>
+<div class="role2">
+    <img style="float: left" src="/assets/roles/playerR_front0001.png">
+    <p>WASD移動，用身體推動方塊，按 ‘Q’ 攻擊，按'E'按按紐</p>
+</div>
+<div class="barrier">
+    <img style="float: left" width="130" height="150" src="/assets/barrier/barrier_ghost1.png">
+    <img class="car" src="/assets/barrier/barrier_car_front1.png">
+    <p>小心愛跟蹤人的鬼以及討人厭的車子</p>
+</div>
+<div class="gift">
+    <img style="float: left" src="/assets/props/gift_red.png">
+    <p>取得Buff</p>
+</div>
+</body>
+</html>

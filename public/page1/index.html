@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>關卡</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="../javascripts/p5.min.js"></script>
+    <script src="../javascripts/shape5.js"></script>
+    <script src="../javascripts/p5.play.js"></script>
+    <style>
+        /*html {
+            background: url('../images/view/選關/level_bg.png') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }*/
+        body {
+            background: url('../assets/view/選關/level_bg.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .level1{
+            background: url("../assets/view/選關/level_01.png") ;
+            background-size: 780px 145px;
+            width: 780px;height: 145px;
+            position: absolute;
+            top:25%;
+            left: 25%;
+        }
+        .level2{
+            background: url("../assets/view/選關/level_02.png") ;
+            background-size: cover;
+            width: 780px;height: 145px;
+            position: absolute;
+            top: 45%;
+            left: 25%;
+        }
+        .level3{
+            background: url("../assets/view/選關/level_03.png") ;
+            background-size: cover;
+            width: 780px;height: 145px;
+            position: absolute;
+            top: 65%;
+            left: 25%;
+        }
+        .help{
+            background: url("../assets/view/選關/help.png");
+            background-size: cover;
+            width: 200px;height: 100px;
+            top: 3px;
+            left: 3px;
+        }
+    </style>
+</head>
+<body>
+<audio autoplay loop>
+    <source src="../assets/sound/happytime.mp3">
+</audio>
+
+    <a href='../level1/'>
+        <div class="level1"></div>
+    </a>
+    <a href='../level2/'>
+        <div class="level2"></div>
+    </a>
+    <a href='../level3/'>
+        <div class="level3"></div>
+    </a>
+    <a href="../help/help1.html">
+        <div class="help"></div>
+    </a>
+</body>
+</html>

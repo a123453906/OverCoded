@@ -1,0 +1,10 @@
+{
+  "name": "0110adjust",
+  "version": "1.0.0",
+  "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "run": "serve public"
+  }
+}
