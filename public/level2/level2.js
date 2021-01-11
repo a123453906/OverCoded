@@ -638,15 +638,21 @@ function draw() {
                 code_segment[trash].immovable = false;
                 // 修改的ending
 
-                code_segment[trash].position.x = Math.random() * 900 + 100;
-                code_segment[trash].position.y = Math.random() * 650 + 50;
+                // code_segment[trash].position.x = Math.random() * 900 + 100;
+                // code_segment[trash].position.y = Math.random() * 650 + 50;
                 console.log(code_segment[trash].position.x)
                 console.log(code_segment[trash].position.y)
 
                 code_answer_y_now -= 100;
                 console.log(code_answer_y_now);
                 //role1.position.x = 400;
-                role1.position.x -= 100;
+                // role1.position.x -= 100;
+                if(role1.overlap(button_del)){
+                    role1.position.x -= 100;
+                }
+                if(role2.overlap(button_del)){
+                    role2.position.x -= 100;
+                }
             }
         }else{
             button_del.changeImage('nonpress');
